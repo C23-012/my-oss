@@ -1,23 +1,25 @@
 public class Fruit {
     private String name;
-    private int wight;
+    private int weight;
 
-    public Fruite(string name, int weight) {
+    public Fruit(String name, int weight) {
         this.name = name;
         this.weight = weight;
     }
 
-    public void setName(string name){
+    public void setName(String name) {
         this.name = name;
     }
-    public void setWeight(int weight){
-        this.weight = weihgt;
+
+    public void setWeight(int weight) {
+        this.weight = weight;
     }
 
-    public int getName(){
+    public String getName() {
         return name;
     }
-    public int getWeight(){
+
+    public int getWeight() {
         return weight;
     }
 }
